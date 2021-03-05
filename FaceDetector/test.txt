@@ -1,0 +1,5 @@
+#并行计算大作业
+
+video_name test1.mp4
+cascade D:\\OpenCV\\opencv343\\opencv\\sources\\data\\haarcascades\\haarcascade_frontalface_alt.xml
+nestedcascade D:\\OpenCV\\opencv343\\opencv\\sources\\data\\haarcascades\\haarcascade_eye.xml

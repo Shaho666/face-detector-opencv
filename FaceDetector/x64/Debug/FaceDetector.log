@@ -1,0 +1,8 @@
+﻿  main.cpp
+c1xx : warning C4199: C++/CLI、C++/CX 或 OpenMP 不支持两阶段名称查找；请使用 /Zc:twoPhase-
+e:\workspace\vs2017\facedetector\facedetector\main.cpp(36): error C2039: “cout”: 不是“std”的成员
+  e:\workspace\vs2017\facedetector\facedetector\predefined c++ types (compiler internal)(257): note: 参见“std”的声明
+e:\workspace\vs2017\facedetector\facedetector\main.cpp(36): error C2065: “cout”: 未声明的标识符
+e:\workspace\vs2017\facedetector\facedetector\main.cpp(36): error C2039: “endl”: 不是“std”的成员
+  e:\workspace\vs2017\facedetector\facedetector\predefined c++ types (compiler internal)(257): note: 参见“std”的声明
+e:\workspace\vs2017\facedetector\facedetector\main.cpp(36): error C2065: “endl”: 未声明的标识符

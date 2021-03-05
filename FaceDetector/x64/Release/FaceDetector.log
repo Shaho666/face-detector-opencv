@@ -1,0 +1,16 @@
+﻿  AbstractDetector.cpp
+e:\workspace\vs2017\facedetector\facedetector\abstractdetector.cpp(44): warning C4244: “=”: 从“time_t”转换到“double”，可能丢失数据
+e:\workspace\vs2017\facedetector\facedetector\abstractdetector.cpp(87): warning C4244: “=”: 从“time_t”转换到“double”，可能丢失数据
+e:\workspace\vs2017\facedetector\facedetector\abstractdetector.cpp(88): warning C4244: “参数”: 从“double”转换到“const time_t”，可能丢失数据
+  main.cpp
+  SensesDetector.cpp
+e:\workspace\vs2017\facedetector\facedetector\sensesdetector.cpp(61): warning C4244: “=”: 从“time_t”转换到“double”，可能丢失数据
+e:\workspace\vs2017\facedetector\facedetector\sensesdetector.cpp(103): warning C4244: “=”: 从“time_t”转换到“double”，可能丢失数据
+e:\workspace\vs2017\facedetector\facedetector\sensesdetector.cpp(104): warning C4244: “参数”: 从“double”转换到“const time_t”，可能丢失数据
+AbstractDetector.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::equalizeHist(class cv::_InputArray const &,class cv::_OutputArray const &)" (?equalizeHist@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@@Z)
+AbstractDetector.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::cvtColor(class cv::_InputArray const &,class cv::_OutputArray const &,int,int)" (?cvtColor@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@HH@Z)
+AbstractDetector.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::flip(class cv::_InputArray const &,class cv::_OutputArray const &,int)" (?flip@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@H@Z)
+AbstractDetector.obj : error LNK2001: 无法解析的外部符号 "public: void __cdecl cv::CascadeClassifier::detectMultiScale(class cv::_InputArray const &,class std::vector<class cv::Rect_<int>,class std::allocator<class cv::Rect_<int> > > &,double,int,int,class cv::Size_<int>,class cv::Size_<int>)" (?detectMultiScale@CascadeClassifier@cv@@QEAAXAEBV_InputArray@2@AEAV?$vector@V?$Rect_@H@cv@@V?$allocator@V?$Rect_@H@cv@@@std@@@std@@NHHV?$Size_@H@2@2@Z)
+AbstractDetector.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::circle(class cv::_InputOutputArray const &,class cv::Point_<int>,int,class cv::Scalar_<double> const &,int,int,int)" (?circle@cv@@YAXAEBV_InputOutputArray@1@V?$Point_@H@1@HAEBV?$Scalar_@N@1@HHH@Z)
+AbstractDetector.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::resize(class cv::_InputArray const &,class cv::_OutputArray const &,class cv::Size_<int>,double,double,int)" (?resize@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@V?$Size_@H@1@NNH@Z)
+E:\workspace\vs2017\FaceDetector\x64\Release\FaceDetector.exe : fatal error LNK1120: 6 个无法解析的外部命令
